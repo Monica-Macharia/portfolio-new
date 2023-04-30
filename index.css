@@ -58,15 +58,19 @@ background-color: rgba(0, 0, 0, 0.5);
     position: relative;
     z-index: 30;
     width: 955%;
-    height: 70vh;
-    border-style: dotted;
+    height: 72vh;
+  
     display: flex;
+    border-radius: 25px;
+    border-style: solid;
+    border-color:whitesmoke;
+    border-width: 0.2px;
     /* justify-content: space-around; */
 }
 .static{
     width: 20%;
-    height: 70vh;
-    border-style:dashed;
+    /* height: 70vh; */
+    border-style:none;
     display: block;
     /* align-items: center; */
     /* justify-content: center; */
@@ -75,6 +79,10 @@ background-color: rgba(0, 0, 0, 0.5);
 .content{
     background-color: rgba(1, 22, 38, 0.7);
     width: 80%;
+    border-radius: 25px;
+    border-left-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
 .picture{
     border-radius: 50%;
