@@ -57,7 +57,7 @@ background-color: rgba(0, 0, 0, 0.5);
 .display{
     position: relative;
     z-index: 30;
-    width: 955%;
+    width: 97%;
     height: 72vh;
   
     display: flex;
@@ -77,11 +77,11 @@ background-color: rgba(0, 0, 0, 0.5);
     /* flex-direction:column; */
 }
 .content{
-    background-color: rgba(1, 22, 38, 0.7);
+    background-color: rgba(1, 22, 38, 0.8);
     width: 80%;
     border-radius: 25px;
     border-left-style: solid;
-    border-color: black;
+    border-color: rgba(1, 22, 38, 0.8);
     border-width: 1px;
 }
 .picture{
