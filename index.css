@@ -92,7 +92,34 @@ section#about{
     height: 100%;
     
 }
-
+section#skills{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 25px;
+    height: 100%;
+    
+}
+section#projects{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 25px;
+    height: 100%;
+    
+}
+section#blogs{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 25px;
+    height: 100%;
+    
+}
+section#contact-details{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 25px;
+    height: 100%;
+    
+}
 .picture{
     border-radius: 50%;
     width: 90%;
