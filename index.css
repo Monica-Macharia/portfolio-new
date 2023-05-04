@@ -83,6 +83,14 @@ background-color: rgba(0, 0, 0, 0.5);
     border-left-style: solid;
     border-color: rgba(1, 22, 38, 0.8);
     border-width: 1px;
+    overflow: hidden;
+}
+section#home{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 25px;
+    height: 100%;
+    
 }
 .picture{
     border-radius: 50%;
