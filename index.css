@@ -85,13 +85,14 @@ background-color: rgba(0, 0, 0, 0.5);
     border-width: 1px;
     overflow: hidden;
 }
-section#home{
+section#about{
     width: 100%;
     overflow: hidden;
     border-radius: 25px;
     height: 100%;
     
 }
+
 .picture{
     border-radius: 50%;
     width: 90%;
