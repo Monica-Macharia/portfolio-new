@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+   
 }
 
 .showcase{
@@ -119,6 +121,9 @@ section#contact-details{
     overflow: hidden;
     border-radius: 25px;
     height: 100%;
+    display: flex;
+    padding-top: 15%;
+    justify-content: space-evenly;
     
 }
 .picture{
@@ -163,4 +168,35 @@ section.navbar ul li{
    font-size: 25px;
     list-style: none;
     border-right-style: solid;
+}
+section#about {
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 30px;
+}
+p#header{
+    position: relative;
+   padding-bottom: 20px;
+   padding-top: 7%;
+   text-align: center;
+   font-size: 25px;
+   text-align: center;
+   font-weight: bold;
+   
+
+}
+img.letter{
+    height: 200px;
+    padding-left: 20px;
+
+}
+p.email{
+    padding-left: 70px;
+    /* text-align: center; */
+    padding-top: 50px;
+    padding-right: 20px;
 }
