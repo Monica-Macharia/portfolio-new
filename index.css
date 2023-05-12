@@ -238,3 +238,9 @@ img.project-img{
     flex: 0 0 auto;
     object-fit: cover;
 }
+img.project-imgs{
+    width: 850px;
+    height: 400px;
+    flex: 0 0 auto;
+    object-fit: contain;
+}
