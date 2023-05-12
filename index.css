@@ -182,8 +182,9 @@ section#about {
     font-size: 16px;
     line-height: 30px;
 }
-p#soft{
-    style: rgb(0, 147, 172);
+b.soft{
+    color: rgb(0, 147, 172);
+    font-weight: bold;
 }
 p#header{
     position: relative;
