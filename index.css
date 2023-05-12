@@ -182,6 +182,9 @@ section#about {
     font-size: 16px;
     line-height: 30px;
 }
+p#soft{
+    style: rgb(0, 147, 172);
+}
 p#header{
     position: relative;
    padding-bottom: 20px;
