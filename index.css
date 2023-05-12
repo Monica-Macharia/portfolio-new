@@ -217,14 +217,14 @@ ul.projects{
     flex: 0 0 auto; 
    
   }
-ul{
+ul.projects{
     flex-wrap: nowrap;
    gap: 70px;
    overflow-x: auto; 
    flex: 0 0 auto;
     display: flex;
     flex-direction:row;
-    padding: 2% 5%;
+    padding: 1% 7%;
     margin: 0;
     
     
@@ -233,8 +233,8 @@ ul{
    
 }
 img.project-img{
-    width: 400px;
-    height: 350px;
+    width: 850px;
+    height: 400px;
     flex: 0 0 auto;
-    object-fit: contain;
+    object-fit: cover;
 }
