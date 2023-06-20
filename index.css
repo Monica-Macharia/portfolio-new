@@ -139,7 +139,7 @@ section#contact-details{
     
 }
 div.bottoms{
-  margin-bottom: 87px;
+  margin-bottom: 77px;
 }
 img.project-img{
     height: 30%;
@@ -154,7 +154,7 @@ video.project-img{
 header{
     
     padding-top: 20px;
-    padding-left: 30px;
+    padding-left: 10px;
     margin: auto;
 }
 h2{
@@ -266,7 +266,7 @@ ul li a{
 }
 div.caption{
     margin-top: 24px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 h2.titlepro{
     margin-top: 10px;
