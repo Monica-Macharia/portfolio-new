@@ -62,7 +62,7 @@ background-color: rgba(0, 0, 0, 0.5);
 .display{
     position: relative;
     z-index: 30;
-    width: 97%;
+    width: 90vw;
     height: 82vh;
   
     display: flex;
@@ -83,7 +83,7 @@ background-color: rgba(0, 0, 0, 0.5);
 }
 .content{
     background-color: rgba(1, 22, 38, 0.8);
-    width: 80%;
+    width: 90%;
     border-radius: 25px;
     border-left-style: solid;
     border-color: rgba(1, 22, 38, 0.8);
@@ -95,7 +95,7 @@ section#about{
     overflow: hidden;
     border-radius: 25px;
     height: 100%;
-    
+    font-size: 17px;
 }
 
 section#skills{
@@ -138,12 +138,15 @@ section#contact-details{
     /* padding-bottom: 10px; */
     
 }
+div.bottoms{
+  margin-bottom: 87px;
+}
 img.project-img{
     height: 30%;
     width: 40%;
 }
 video.project-img{
-   height: 420px;
+   height: 418px;
     /* width: 90vw; */
     padding: 0;
     border-radius: 10px;
@@ -161,10 +164,11 @@ h2{
 section.navbar{
     z-index: 3;
     position: absolute;
-    margin-left: 95%;
+    margin-right: 5px;
     margin-top: 17%;
-   
+   padding-left: 20px;
     color: white;
+    list-style: none;
     
 }
 section.navbar ul{
@@ -177,7 +181,27 @@ section.navbar ul li{
    padding-right: 7px;
    font-size: 25px;
     list-style: none;
-    border-right-style: solid;
+}
+button.icnbtn{
+  height: 60px;
+  padding: 0px;
+}
+div.socials ul {
+  display: flex-inline;
+  list-style: none;
+  padding: 25px;
+}
+div.socials ul li a{
+
+
+}
+
+
+section.navbar ul li a{
+ 
+   list-style: none;
+   text-decoration: none;
+   border-left-style: solid;
 }
 section#about {
     text-align: center;
@@ -192,8 +216,23 @@ b.soft{
     color: rgb(0, 147, 172);
     font-weight: bold;
 }
+.skillbuttons{
+  padding: 20px;
+  margin-top: 50px;
+}
+.titlepros{
+  margin-top: 50px;
+  margin-left: 50px;
+  color: #0093AC;
+  
+}
+.skillbuttons button{
+  margin-top: 20px;
+  margin-left: 20px;
+}
 p#header{
     position: relative;
+    margin-top: 20px;
    padding-bottom: 20px;
    padding-top: 7%;
    text-align: center;
@@ -222,11 +261,16 @@ ul li a{
     
 
 }
+.skilltitle{
+  margin-top: 20px;
+}
 div.caption{
-    margin-top: 25px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 h2.titlepro{
     margin-top: 20px;
+    color: #0093AC;
     margin-left: 50px;
 }
 ul.projects{
@@ -255,7 +299,7 @@ ul.projects{
 }
 img.project-img{
     width: 850px;
-    height: 400px;
+    height: 425px;
     flex: 0 0 auto;
     object-fit: cover;
     border-radius: 10px;
