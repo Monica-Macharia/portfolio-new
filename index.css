@@ -434,3 +434,15 @@ button {
       transform: rotate(0);
     }
   }
+.play{
+ 
+
+ z-index: 400;
+
+}
+.arrows{
+  display:flex;
+  align-items:flex-end;
+  justify-content: space-between;
+  padding-right: 30px;
+}
