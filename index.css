@@ -328,6 +328,12 @@ button {
     background: linear-gradient(85deg, #FEC195, #fcc196, #fabd92, #fac097, #fac39c);
     animation: wind 2s ease-in-out infinite;
   }
+  a:hover {
+  
+    color: rgb(0, 147, 172);
+    animation: wind 2s ease-in-out infinite;
+  
+  }
   
   @keyframes wind {
     0% {
