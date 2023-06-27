@@ -146,9 +146,10 @@ img.project-img{
     width: 40%;
 }
 video.project-img{
-   height: 418px;
-    /* width: 90vw; */
+   height: 428px;
+    /* width: 40%; */
     padding: 0;
+
     border-radius: 10px;
 }
 header{
@@ -191,10 +192,7 @@ div.socials ul {
   list-style: none;
   padding: 25px;
 }
-div.socials ul li a{
 
-
-}
 
 
 section.navbar ul li a{
@@ -445,4 +443,10 @@ button {
   align-items:flex-end;
   justify-content: space-between;
   padding-right: 30px;
+  
+}
+.flex{
+  display:flex;
+  align-items:flex-end;
+  justify-content: space-between;
 }
