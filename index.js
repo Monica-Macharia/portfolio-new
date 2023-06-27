@@ -15,12 +15,12 @@ let page = document.getElementsByClassName("page")
 
  
 arrow.addEventListener('click', function(){
-    let scrollAmount = 700 
+    let scrollAmount = 800 
       projects.scrollLeft += scrollAmount  
    
 })
 back.addEventListener('click', function(){
-    let scrollAmount = 700 
+    let scrollAmount = 800 
     projects.scrollLeft -= scrollAmount  
  
 })
