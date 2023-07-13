@@ -303,10 +303,11 @@ img.project-img{
     border-radius: 10px;
 }
 img.project-imgs{
-    width: 850px;
+    width: 650px;
     height: 400px;
     flex: 0 0 auto;
     object-fit: contain;
+    margin-left: 0px;
     border-radius: 5px;
 }
 
